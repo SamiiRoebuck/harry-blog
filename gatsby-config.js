@@ -24,6 +24,7 @@ module.exports = {
         name: `markdown-pages`,
         path: `${__dirname}/_data`,
       },
+      
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -53,6 +54,12 @@ module.exports = {
     },
     `gatsby-plugin-sass`, 
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+          enableIdentityWidget: true,
+      },
+  },
+    
   ],
 }
