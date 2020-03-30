@@ -22,6 +22,10 @@ collections:
         media_library:
           config:
             multiple: false
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+        default: ['news']
       - { name: body, label: Body, widget: markdown }
       - label: Meta Description
         name: metaDescription
