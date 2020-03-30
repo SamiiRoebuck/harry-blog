@@ -7,12 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Harry Blog`,
+    title: `Logo here`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://delog-w3layouts.netlify.com/`,
     home: {
-      title: `This is the blog title`,
-      description: `This is the blog description :)`,
+      title: `Welcome to Homemade Workshop`,
+      description: `Hey folks!
+      We're Harry and Sam, we're a prop designer and software developer by trade! But in our homemade workshop we make all kinds of cool stuff! Check them out below :)`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
     w3l_dom_key: `5e609f7a2d23fCF_Domain_verify` 
