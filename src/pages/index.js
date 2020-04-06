@@ -11,19 +11,57 @@ const IndexPage = ({
     allMarkdownRemark: { edges }
   }
 }) => {
+
+    
+  const tags = edges.filter( edge => { 
+    if (edge.node.frontmatter.tags !== null) {
+      return true
+    } 
+    return false
+  }).map(function (edge) {
+    return edge.node.frontmatter.tags;
+  })
+
+  const tagsMerged = [].concat.apply([], tags);
+
+  let uniqueTags = [...new Set(tagsMerged)]
+
+
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => {
-      return <PostLink key={edge.node.id} post={edge.node} />;
-    });
+    return <PostLink key={edge.node.id} post={edge.node} /> })
+
+    
+    
 
   const filter = e => {
-    var x, i;
-    x = document.getElementsByClassName('card');
-    for (i = 0; i < x.length; i++) {
+    console.log(e.target.classList.value)
+    let chosen = e.target.classList.value
+    if (chosen === 'all') {
+      let cards = document.querySelectorAll('.card')
+      console.log(cards);
+      cards.forEach(card => {
+        if (!card.classList.contains('show')) {
+          card.classList.remove('hide')
+        card.classList.add('show')
+        }
+      });
+    } else {
+      let cards = document.querySelectorAll('.card')
+      console.log(cards);
+      cards.forEach(card => {
+        if (!card.classList.contains(chosen)) {
+        card.classList.remove('show')
+        card.classList.add('hide')
+        } else {
+          card.classList.remove('hide')
+        card.classList.add('show')
+        }
+      });
 
     }
-  };
+  }
 
   return (
     <Layout>
@@ -38,9 +76,16 @@ const IndexPage = ({
         )}
       </Helmet>
       <HeroHeader />
-      <button className='show' onClick={filter}>
-        test
+      <button className='all' onClick={filter}>
+        All
       </button>
+      {uniqueTags.map((tag, i) => {
+        return <button key={i} className={tag} onClick={filter}>
+          {tag}
+        </button>
+      })
+
+      }
       <h2>Blog Posts &darr;</h2>
       <div className='grids'>{Posts}</div>
     </Layout>

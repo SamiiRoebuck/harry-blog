@@ -17,7 +17,7 @@ const PostLink = ({ post }) => {
 
 
   return (
-    <article className={`card ${renderTagClasses}`}>
+    <article className={`card show ${renderTagClasses}`}>
       <Link to={post.frontmatter.path}>
         {!!post.frontmatter.thumbnail && (
           <img
