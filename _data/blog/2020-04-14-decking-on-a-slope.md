@@ -3,7 +3,7 @@ template: BlogPost
 path: /decking
 date: 2020-04-14T16:10:10.193Z
 title: Decking on a slope
-thumbnail: /assets/Featured Image.jpg
+thumbnail: /assets/decking-feature.jpg
 tags:
   - DIY HomeProjects
 metaDescription: test
