@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: decking
+path: /decking
 date: 2020-04-14T16:10:10.193Z
 title: Decking on a slope
 thumbnail: /assets/IMG_3509.JPG
