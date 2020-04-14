@@ -6,7 +6,7 @@ title: Decking on a slope
 thumbnail: /assets/IMG_3509.JPG
 tags:
   - DIY
-  - Home Projects
+  - HomeProjects
 ---
 ## **Tools used**
 
