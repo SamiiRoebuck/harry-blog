@@ -76,6 +76,7 @@ const IndexPage = ({
         )}
       </Helmet>
       <HeroHeader />
+      <div className='filter'>
       <button className='all' onClick={filter}>
         All
       </button>
@@ -83,10 +84,12 @@ const IndexPage = ({
         return <button key={i} className={tag} onClick={filter}>
           {tag}
         </button>
+
       })
 
       }
-      <h2>Blog Posts &darr;</h2>
+      </div>
+      <h2>Posts &darr;</h2>
       <div className='grids'>{Posts}</div>
     </Layout>
   );

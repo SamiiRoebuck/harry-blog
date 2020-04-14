@@ -7,13 +7,13 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Logo here`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `Blog - Harry York Design`,
+    description: `A blog for Harry York`,
     siteUrl: `https://delog-w3layouts.netlify.com/`,
     home: {
-      title: `Welcome to Homemade Workshop`,
+      title: `Welcome to Harry York Design`,
       description: `Hey folks!
-      We're Harry and Sam, we're a prop designer and software developer by trade! But in our homemade workshop we make all kinds of cool stuff! Check them out below :)`,
+      I'm Harry, I'm a prop and CAD designer by trade, and a general DIY and crafter the rest of the time! Have a look through some of my projects :)`,
     },
     /* W3Layouts domain verification key for contact forms https://my.w3layouts.com/Forms/ */
     w3l_dom_key: `5e609f7a2d23fCF_Domain_verify` 

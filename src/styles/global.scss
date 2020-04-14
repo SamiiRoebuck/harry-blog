@@ -1,8 +1,16 @@
-$primary-color: #513c57;
-$secondary-color: #cdab56;
+$primary-color: #11bdb2;
+$secondary-color: #ffe791;
+$third-color: #ffc9f1;
 $primary-grey: #969a9d;
 $secondary-grey: #7a7b7e;
 $primary-text-color: #faf9fa;
+
+$black: #1f1f1f;
+$white: #ffffff;
+
+$teal: #11bdb2;
+$pink: #ffc9f1;
+$yellow: #ffe791;
 
 html,
 body {
@@ -61,11 +69,18 @@ a {
   margin-bottom: 32px;
   align-items: center;
 }
-.site-title a {
-  color: $primary-color;
-  text-decoration: none;
-  font-weight: 900;
-  text-transform: uppercase;
+.site-title {
+  margin-bottom: 30px;
+  a {
+    color: $primary-color;
+    text-decoration: none;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 50px;
+  }
 }
 .hero-header {
   padding: 0 0 40px;
@@ -205,7 +220,7 @@ a {
     .tag {
       display: inline-block;
       margin-right: 10px;
-      color: $secondary-color;
+      color: $third-color;
       font-weight: bold;
       margin-top: 5px;
     }
@@ -284,4 +299,39 @@ a {
 
 .show {
   display: grid;
+}
+
+.filter {
+  button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+
+    color: $black;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0px 5px 30px 0px;
+    background-color: $third-color;
+    box-shadow: 0 0 3px $secondary-grey;
+  }
 }
