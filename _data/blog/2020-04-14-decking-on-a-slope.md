@@ -3,7 +3,7 @@ template: BlogPost
 path: /decking
 date: 2020-04-14T16:10:10.193Z
 title: Decking on a slope
-thumbnail: /assets/IMG_3509.JPG
+thumbnail: /assets/Featured Image.jpg
 tags:
   - DIY
   - HomeProjects
@@ -31,7 +31,5 @@ tags:
 * 1 x 2.4m
 
 2. 45 x 170mm profile sleeper, 3m length
-
 3. 16 lengths of 25 x 120mm profile decking board, 1.8m length
-
 4. 200 6 x 80mm woodscrews
