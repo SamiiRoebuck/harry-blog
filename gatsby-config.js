@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `Blog - Harry York Design`,
     description: `A blog for Harry York`,
-    siteUrl: `https://delog-w3layouts.netlify.com/`,
+    siteUrl: `https://blog.harryyorkdesign.com/`,
     home: {
       title: `Welcome to Harry York Design`,
       description: `Hey folks!

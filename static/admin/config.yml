@@ -30,4 +30,4 @@ collections:
       - label: Meta Description
         name: metaDescription
         widget: text
-        required: false
+        required: true
