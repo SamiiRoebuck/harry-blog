@@ -47,6 +47,16 @@ The third option was by far the best one, which you can already see from the ima
 
 ## Planning
 
+![Sketch showing dimensions for decking frame.](/assets/frame dims.png "Decking-dims")
+
 Above, is the sketch that I planned for lengths of timber to buy for the frame and supports.
 
-![A sketch for the frame of the decking.](/assets/frame dims.png "Planning sketch")
+
+
+![](/assets/CAD.png)
+
+![](/assets/crating sketch.jpg)
+
+Here is a quick mock up of what the decking frame will look like above the sloped garden floor, one in CAD on Fusion 360 and one Sketched in Procreate.
+
+The back corner is resting directly on the concrete floor, and all other corners are propped up by the base which can be seen in the sketch below, shaded in red.
