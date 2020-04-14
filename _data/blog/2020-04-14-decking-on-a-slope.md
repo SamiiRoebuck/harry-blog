@@ -5,8 +5,7 @@ date: 2020-04-14T16:10:10.193Z
 title: Decking on a slope
 thumbnail: /assets/Featured Image.jpg
 tags:
-  - DIY
-  - HomeProjects
+  - DIY HomeProjects
 ---
 ## **Tools used**
 
