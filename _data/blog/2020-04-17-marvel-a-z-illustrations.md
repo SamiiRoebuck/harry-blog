@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: MarvelIllustrations
+path: /MarvelIllustrations
 date: 2020-04-17T11:11:46.215Z
 title: Marvel A-Z illustrations
 thumbnail: /assets/black_panther_feature.jpg
