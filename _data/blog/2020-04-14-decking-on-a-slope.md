@@ -9,11 +9,7 @@ tags:
   - HomeProjects
 metaDescription: A blog post about building decking.
 ---
-
-
 This project post is less of an exact tutorial, mainly because of the nature of the slope in our garden, and is in fact more of a ‘how we did it’ rather than the wholly correct way of building decking in any garden.
-
-
 
 ## **Tools used**
 
@@ -24,16 +20,12 @@ This project post is less of an exact tutorial, mainly because of the nature of 
 * Spirit Level
 * Square
 
-
-
 ## Materials used
 
 * 45 x 95mm profile Treated timber in multiple lengths (2 x 3.6m, 3 x 3m, 1 x 2.4m)
 * 45 x 170mm profile sleeper, 3m length
 * 16 lengths of 25 x 120mm profile decking board, 1.8m length
 * 200 6 x 80mm woodscrews
-
-
 
 ## Limitations of the project
 
@@ -43,15 +35,11 @@ We thought about removing enough ground in the corner of the garden to meet the 
 
 The third option was by far the best one, which you can already see from the image at the top of the page was to create a freestanding decking that is strong enough to withstand the weight of a shed, and can be easily removed when we move out of this house in a few years form now.
 
-
-
 ## Planning
 
 ![Sketch showing dimensions for decking frame.](/assets/frame dims.png "Decking-dims")
 
 Above, is the sketch that I planned for lengths of timber to buy for the frame and supports.
-
-
 
 ![](/assets/CAD.png)
 
@@ -59,4 +47,30 @@ Above, is the sketch that I planned for lengths of timber to buy for the frame a
 
 Here is a quick mock up of what the decking frame will look like above the sloped garden floor, one in CAD on Fusion 360 and one Sketched in Procreate.
 
-The back corner is resting directly on the concrete floor, and all other corners are propped up by the base which can be seen in the sketch below, shaded in red.
+The back corner is resting directly on the concrete floor, and all other corners are propped up by the base which can be seen in the sketch below, shaded in red, and the orange box is where I’m hoping to place the shed in future.
+
+
+
+## Cutting List
+
+* From both 3.6m lengths; 2m + 2 x 607cm
+* From two 3m lengths; 1.61m + 2 x 607cm
+* From one 3m length; 1.61m + 607cm
+* From the 1.24m length; 1.61m
+* From the 3m length sleeper; 1.7m
+
+
+
+## In progress pictures
+
+![](/assets/Decking1.JPG)
+
+![]()
+
+![]()
+
+![]()
+
+![]()
+
+![]()
