@@ -63,14 +63,14 @@ The back corner is resting directly on the concrete floor, and all other corners
 
 ## In progress pictures
 
-![](/assets/Decking1.JPG)
+![Creating decking frame](/assets/Decking1.JPG "Decking frame")
 
-![]()
+![Horizontal support joints](/assets/Decking2.JPG "Horizontal support joints")
 
-![]()
+![Fixing decking frame together](/assets/Decking3.JPG "Fixing decking frame together")
 
-![]()
+![Decking levelled and laid in place](/assets/Decking4.JPG "Decking levelled and laid in place")
 
-![]()
+![Fixing decking to the frame](/assets/Decking5.JPG "Fixing decking to the frame")
 
-![]()
+![Final outcome of decking build](/assets/Decking6.JPG "Final outcome of decking build")
